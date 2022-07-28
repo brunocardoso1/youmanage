@@ -1,3 +1,49 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(160deg, #012340, #025939, #027333, #03A63C);
+}
+
+#login-text {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-left: 80px;
+}
+
+form {
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+
+input {
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 35px;
+    border: none;
+    background-color: rgb(247, 244, 244);
+}
+
+
+
+#submit {
+    margin-top: 30px;
+    padding: 15px auto;
+    font-size: 15px;
+    border: none;
+    background-color:#BFB78F;
+    border-radius: 5px;
+}
