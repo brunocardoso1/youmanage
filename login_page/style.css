@@ -1,16 +1,16 @@
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
     width: 100%;
     height: 100%;
-    background: linear-gradient(160deg, #012340, #025939, #027333, #03A63C);
+    background: linear-gradient(160deg, #012340, #025939, #027333, #03A63C) no-repeat;
 }
 
 #login-text {
     color: black;
-    font-family: 'Open Sans', sans-serif;
     text-align: left;
     margin-left: 80px;
 }
@@ -21,7 +21,7 @@ form {
     background-color: white;
     width: 400px;
     height: 500px;
-    margin: 200px auto;
+    margin: 180px auto;
     text-align: center;
 }
 
@@ -46,4 +46,15 @@ input {
     border: none;
     background-color:#BFB78F;
     border-radius: 5px;
+}
+
+
+#backbutton{
+    background-color: white;
+    width: 70px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: large;
+
 }
